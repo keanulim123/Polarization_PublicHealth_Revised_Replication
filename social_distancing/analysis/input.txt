@@ -1,0 +1,35 @@
+# Each line of instruction in this `inputs.txt` file should contain a destination and source delimited by a `|`.
+# Lines beginning with # are ignored.
+# 
+# For example, suppose your `inputs.txt` file contains the following lines of text:
+# > destination | source
+#
+# Now suppose you run the following line of code:
+# > link_inputs(paths, ['inputs.txt'])
+# 
+# This will create a link in `paths['input_dir']` named `destination` that links to `source`.
+# 
+# Alternative, suppose you run the following line of code:
+# > copy_inputs(paths, ['inputs.txt'])
+# 
+# This will create a file in `paths['input_dir']` named `destination` that is a copy of `source`.
+
+# Destination    | Source
+avoiding_public_places.csv		| "{root}/raw/existing_surveys/avoiding_public_places.csv"
+avoiding_small_gatherings.csv	| "{root}/raw/existing_surveys/avoiding_small_gatherings.csv"
+concern_over_spread_poll.csv	| "{root}/raw/existing_surveys/concern_over_spread_poll.csv"
+marist_march_polls.csv			| "{root}/raw/existing_surveys/marist_march_polls.csv"
+county_week_data.csv 			| "{root}/data/output/county_week_data.csv"
+county_week_plac_data.csv 		| "{root}/data/output/county_week_plac_data.csv"
+county_day_data.csv 			| "{root}/data/output/county_day_data.csv"
+county_day_plac_data.csv 		| "{root}/data/output/county_day_plac_data.csv"
+countyindustry_week_data.csv    | "{root}/data/output/countyindustry_week_data.csv"
+precinct_week_data.csv 			| "{root}/data/output/precinct_week_data.csv"
+precinct_week_plac_data.csv     | "{root}/data/output/precinct_week_plac_data.csv"
+state_db.dta					| "{root}/data/output/state_db.dta"
+state_coord.dta					| "{root}/data/output/state_coord.dta"
+county_db.dta					| "{root}/data/output/county_db.dta"
+county_coord.dta				| "{root}/data/output/county_coord.dta"
+county_policies.csv				| "{root}/data/output/county_policies.csv"
+state_policies.csv				| "{root}/data/output/state_policies.csv"
+cloudresearch_cleaned.csv		| "{root}/data/output/cloudresearch_cleaned.csv"

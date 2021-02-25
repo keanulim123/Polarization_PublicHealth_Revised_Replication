@@ -1,0 +1,86 @@
+# Each line of instruction in this `inputs.txt` file should contain a destination and source delimited by a `|`.
+# Lines beginning with # are ignored.
+# 
+# For example, suppose your `inputs.txt` file contains the following lines of text:
+# > destination | source
+#
+# Now suppose you run the following line of code:
+# > link_inputs(paths, ['inputs.txt'])
+# 
+# This will create a link in `paths['input_dir']` named `destination` that links to `source`.
+# 
+# Alternative, suppose you run the following line of code:
+# > copy_inputs(paths, ['inputs.txt'])
+# 
+# This will create a file in `paths['input_dir']` named `destination` that is a copy of `source`.
+
+# Destination  |  Source
+marist march behavior change polls.pdf					| "{root}/analysis/output/marist march behavior change polls.pdf"
+gallup avoiding small gatherings.pdf					| "{root}/analysis/output/gallup avoiding small gatherings.pdf"
+gallup avoiding public places.pdf						| "{root}/analysis/output/gallup avoiding public places.pdf"
+concern over spread of coronavirus.pdf					| "{root}/analysis/output/concern over spread of coronavirus.pdf"
+precinct_week_1.pdf 									| "{root}/analysis/output/precinct_week_1.pdf" 
+precinct_week_2.pdf 									| "{root}/analysis/output/precinct_week_2.pdf" 
+precinct_week_3.pdf 									| "{root}/analysis/output/precinct_week_3.pdf" 
+precinct_week_4.pdf 									| "{root}/analysis/output/precinct_week_4.pdf"
+precinct_week_plac_1.pdf 								| "{root}/analysis/output/precinct_week_plac_1.pdf" 
+precinct_week_plac_2.pdf 								| "{root}/analysis/output/precinct_week_plac_2.pdf" 
+precinct_week_plac_3.pdf 								| "{root}/analysis/output/precinct_week_plac_3.pdf" 
+precinct_week_plac_4.pdf 								| "{root}/analysis/output/precinct_week_plac_4.pdf"  
+county_week_alt_log_devices_outside_home_3.pdf 			| "{root}/analysis/output/county_week_alt_log_devices_outside_home_3.pdf" 
+county_week_alt_log_median_away_sg_3.pdf				| "{root}/analysis/output/county_week_alt_log_median_away_sg_3.pdf"
+county_week_alt_log_destination_cbgs_not_self_3.pdf 	| "{root}/analysis/output/county_week_alt_log_destination_cbgs_not_self_3.pdf"
+county_week_alt_share_leave_home_candidate_3.pdf 		| "{root}/analysis/output/county_week_alt_share_leave_home_candidate_3.pdf"
+county_week_alt_share_leave_home_3.pdf 					| "{root}/analysis/output/county_week_alt_share_leave_home_3.pdf" 
+county_week_alt_share_leave_home_alt_3.pdf 				| "{root}/analysis/output/county_week_alt_share_leave_home_alt_3.pdf" 
+precinct_week_alt_log_destination_cbgs_not_self_4.pdf 	| "{root}/analysis/output/precinct_week_alt_log_destination_cbgs_not_self_4.pdf"
+precinct_week_alt_log_devices_outside_home_4.pdf 		| "{root}/analysis/output/precinct_week_alt_log_devices_outside_home_4.pdf"
+county_week_plac_1.pdf 									| "{root}/analysis/output/county_week_plac_1.pdf" 
+county_week_plac_2.pdf 									| "{root}/analysis/output/county_week_plac_2.pdf" 
+county_week_plac_3.pdf 									| "{root}/analysis/output/county_week_plac_3.pdf" 
+county_week_1.pdf 										| "{root}/analysis/output/county_week_1.pdf" 
+county_week_2.pdf 										| "{root}/analysis/output/county_week_2.pdf" 
+county_week_3.pdf 										| "{root}/analysis/output/county_week_3.pdf" 
+countyindustry_week_accomod_and_food.pdf 				| "{root}/analysis/output/countyindustry_week_accomod_and_food.pdf" 
+countyindustry_week_entertainment.pdf 					| "{root}/analysis/output/countyindustry_week_entertainment.pdf" 
+countyindustry_week_health_care.pdf 					| "{root}/analysis/output/countyindustry_week_health_care.pdf" 
+countyindustry_week_other_industries.pdf 				| "{root}/analysis/output/countyindustry_week_other_industries.pdf" 
+countyindustry_week_retail_trade.pdf 					| "{root}/analysis/output/countyindustry_week_retail_trade.pdf" 
+county_week_robustness_1.pdf 							| "{root}/analysis/output/county_week_robustness_1.pdf" 
+county_week_robustness_2.pdf 							| "{root}/analysis/output/county_week_robustness_2.pdf" 
+county_week_robustness_3.pdf 							| "{root}/analysis/output/county_week_robustness_3.pdf" 
+county_week_robustness_4.pdf 							| "{root}/analysis/output/county_week_robustness_4.pdf" 
+county_week_robustness_5.pdf 							| "{root}/analysis/output/county_week_robustness_5.pdf" 
+county_week_robustness_6.pdf 							| "{root}/analysis/output/county_week_robustness_6.pdf" 
+county_week_robustness_7.pdf 							| "{root}/analysis/output/county_week_robustness_7.pdf" 
+county_week_robustness_8.pdf 							| "{root}/analysis/output/county_week_robustness_8.pdf" 
+county_week_robustness_9.pdf 							| "{root}/analysis/output/county_week_robustness_9.pdf" 
+county_week_robustness_10.pdf 							| "{root}/analysis/output/county_week_robustness_10.pdf" 
+county_week_robustness_11.pdf 							| "{root}/analysis/output/county_week_robustness_11.pdf" 
+county_week_robustness_12.pdf 							| "{root}/analysis/output/county_week_robustness_12.pdf" 
+county_week_robustness_13.pdf 							| "{root}/analysis/output/county_week_robustness_13.pdf" 
+county_week_robustness_14.pdf 							| "{root}/analysis/output/county_week_robustness_14.pdf" 
+county_week_robustness_15.pdf 							| "{root}/analysis/output/county_week_robustness_15.pdf" 
+county_week_robustness_16.pdf 							| "{root}/analysis/output/county_week_robustness_16.pdf" 
+county_week_robustness_17.pdf 							| "{root}/analysis/output/county_week_robustness_17.pdf" 
+county_week_robustness_18.pdf 							| "{root}/analysis/output/county_week_robustness_18.pdf" 
+county_day.pdf 											| "{root}/analysis/output/county_day.pdf" 
+trends_overtime_poi.pdf 								| "{root}/analysis/output/trends_overtime_poi.pdf" 
+trends_overtime_covid.pdf 								| "{root}/analysis/output/trends_overtime_covid.pdf" 
+trends_overtime_poi_plac.pdf 							| "{root}/analysis/output/trends_overtime_poi_plac.pdf" 
+map_county_continental_cases.pdf 						| "{root}/analysis/output/map_county_continental_cases.pdf" 
+map_county_continental_rep_pct.pdf 						| "{root}/analysis/output/map_county_continental_rep_pct.pdf" 
+map_county_continental_visits_pct_ch.pdf 				| "{root}/analysis/output/map_county_continental_visits_pct_ch.pdf"
+map_county_continental_visits_pct_ch.pdf 				| "{root}/analysis/output/map_county_continental_visits_pct_ch.pdf" 
+map_county_continental_sip_effective_date.pdf 			| "{root}/analysis/output/map_county_continental_sip_effective_date.pdf" 
+partisanship_coefplot_horizontal.pdf 					| "{root}/analysis/output/partisanship_coefplot_horizontal.pdf"
+partisanship_coefplot_countyfe.pdf 						| "{root}/analysis/output/partisanship_coefplot_countyfe.pdf"
+partisanship_coefplot_unweighted.pdf 					| "{root}/analysis/output/partisanship_coefplot_unweighted.pdf"
+partisanship_coefplot_news.pdf 							| "{root}/analysis/output/partisanship_coefplot_news.pdf"
+partisanship_incentives.pdf								| "{root}/analysis/output/partisanship_incentives.pdf"
+r_share_cutoff.txt								| "{root}/analysis/output/r_share_cutoff.txt"
+share_drop_pop_restrictions.txt								| "{root}/analysis/output/share_drop_pop_restrictions.txt"
+magnitude_stats.txt								| "{root}/analysis/output/magnitude_stats.txt"
+share_county_matched.txt								| "{root}/data/output/share_county_matched.txt"
+share_precinct_matched.txt								| "{root}/data/output/share_precinct_matched.txt"
+survey_stats.txt								| "{root}/analysis/output/survey_stats.txt"

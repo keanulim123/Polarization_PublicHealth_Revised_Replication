@@ -1,0 +1,2216 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{setspace}
+\usepackage[labelfont=bf]{caption}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 11
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 0
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side left
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+POI Visits in 2019
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:placebo_trends"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../input/trends_overtime_poi_plac.pdf
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows the aggregate number of POI visits (normalized to one)
+ for 24 weeks starting on January 28, 2019 for Republican counties and Democrati
+c counties.
+ Republican counties are defined to be those whose 2016 Republican vote
+ share is greater than the median vote share (66.4%) across the counties
+ in our sample.
+ Counties covering New York City, Kansas City, and Alaska are excluded from
+ these counts, as in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:trends"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and as noted in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:poi_build"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Social Distancing, 2019
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:placebo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Panel A: Only County 
+\backslash
+& Time FE]{
+\backslash
+label{sfig:a}
+\backslash
+includegraphics[scale=.55]{../input/county_week_plac_1.pdf}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Panel B: Adds State-Time FE]{
+\backslash
+label{sfig:b}
+\backslash
+includegraphics[scale=.55]{../input/county_week_plac_2.pdf}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Panel C: Adds Health + Econ + Weather Controls]{
+\backslash
+label{sfig:c}
+\backslash
+includegraphics[scale=.55]{../input/county_week_plac_3.pdf}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows the estimated coefficients for county Republican vote
+ share 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ on the log number of POI visits in the county as in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:main"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, except that 24 weeks of data from January 28, 2019 are used instead of
+ January 27, 2020.
+ For Panel A, only county and time fixed effects are included as controls.
+ Panel B is the same as Panel A except state-time fixed effects replace
+ the time fixed effects.
+ Panel C is the same as Panel B except that health, economic, and weather
+ covariates are included (flexibly), as described in the main text.
+ The grey error bars indicate 95 percent confidence intervals constructed
+ using standard errors clustered at the state-level.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Social Distancing, Alternative Specifications
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:robustness"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel A: Dropping Controls
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Drops Health Controls]{
+\backslash
+label{sfig:a}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_1.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Drops Economic Controls]{
+\backslash
+label{sfig:b}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_2.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Drops Weather Controls]{
+\backslash
+label{sfig:c}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_3.pdf}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel B: Additional Specifications
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Drops State-Time FE]{
+\backslash
+label{sfig:f}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_4.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Linear Controls $
+\backslash
+times$ Time FE]{
+\backslash
+label{sfig:d}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_5.pdf}} 
+\backslash
+hspace{1mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Adds Additional Controls]{
+\backslash
+label{sfig:e}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_6.pdf}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel C: Partisanship Indicators
+\emph default
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Above or Below Median]{
+\backslash
+label{sfig:d}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_7.pdf}} 
+\backslash
+hspace{1mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Top or Bottom Quartile]{
+\backslash
+label{sfig:e}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_8.pdf}}
+\backslash
+hspace{1mm}
+\backslash
+subfloat[Top or Bottom Decile]{
+\backslash
+label{sfig:f}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_9.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows the estimated coefficients for county Republican vote
+ share 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ on the log number of POI visits in the county.
+ The specifications are analogous to our baseline in Panel C of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:main"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ except for the following deviations.
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Panel A: The first plot drops the health controls; the second plot drops
+ the economic controls; and the third plot drops the weather controls.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\size scriptsize
+Panel B: The first plot drops state-time fixed effects (keeping county fixed
+ effects and time fixed effects); the second plot interacts time fixed effects
+ with linear versions of all controls, rather than with decile indicators;
+ the third plot adds the following controls, each with time-varying decile
+ indicators: share under age 18; shares with degrees in science+engineering,
+ business, or arts+humanities; share of households with at least one vehicle;
+ share of homes rented; share speaking only English at home; share with
+ health insurance; shares commuting by auto, taxi, cycle, walking, or without
+ commute; share enrolled in grad+professional school; share citizens; share
+ married; shared of households with an age 60+ occupant; shares of households
+ of size 1, 2, or 3-5; share of households which are a family.
+ This third plot also adds as a control the log of POI visits (plus one)
+ in the same week and county but during the previous year, included as a
+ linear control interacted with time fixed effects.
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Panel C: The first plot defines partisanship 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ to be 1 if the Republican vote share is greater than the median and -1
+ otherwise; the second plot defines partisanship 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ to be 1 if the Republican vote share is in the top quartile, -1 if in the
+ bottom quartile, and 0 otherwise; and the third plot defines partisanship
+ 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ to be 1 if the Republican vote share is in the top decile, -1 if in the
+ bottom decile, and 0 otherwise.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{2}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Social Distancing, Alternative Specifications cont.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:robustness_cont"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel D: Sample Restrictions by Population and State
+\emph default
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Population above 3,000]{
+\backslash
+label{sfig:g}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_10.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Population below 500,000]{
+\backslash
+label{sfig:g}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_11.pdf}} 
+\backslash
+hspace{1mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Drops CA, WA, and NY]{
+\backslash
+label{sfig:h}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_12.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\emph on
+Panel E: Sample Restrictions by Republican Vote Share
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{1mm}
+\backslash
+subfloat[Drops Bottom and Top Deciles]{
+\backslash
+label{sfig:k}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_13.pdf}}
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Above Median Vote Share]{
+\backslash
+label{sfig:i}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_14.pdf}} 
+\backslash
+hspace{1mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Below Median Vote Share]{
+\backslash
+label{sfig:j}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_15.pdf}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel F: Weighting, County Clustering, and Alternative Start Date
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Weights by Population]{
+\backslash
+label{sfig:i}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_16.pdf}} 
+\backslash
+hspace{1mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Clusters SEs by County]{
+\backslash
+label{sfig:j}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_17.pdf}}
+\backslash
+hspace{1mm}
+\backslash
+subfloat[Drops Week of January 27]{
+\backslash
+label{sfig:k}
+\backslash
+includegraphics[scale=.35]{../input/county_week_robustness_18.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows the estimated coefficients for county Republican vote
+ share 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ on the log number of POI visits in the county.
+ The specifications are analogous to our baseline in Panel C of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:main"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ except with the following deviations.
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Panel D: The first plot only keeps counties with a population above 3,000
+ (dropping 5.1 percent of counties in our sample); the second plot only keeps
+ counties with a population below 500,000 (dropping 4.1 percent of counties
+ in our sample); the third plot drops California, Washington, and New York.
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Panel E: The first plot drops counties for which the Republican vote share
+ was in the bottom or top decile; the second plot keeps counties for which
+ the Republican vote share is greater than the median; and the third plot
+ keeps counties for which the Republican vote share is less than or equal
+ to the median.
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Panel F: The first plot weights observations by the county's population.
+ The second plot clusters standard errors at the county level.
+ The third plot drops the week of January 27 and normalizes the estimates
+ relative to the week of February 3.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Social Distancing, Precinct
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:precinct"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[(A) Precinct + Time FE]{
+\backslash
+label{sfig:a}
+\backslash
+includegraphics[scale=.52]{../input/precinct_week_1.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[(B) Adds State-Time FE]{
+\backslash
+label{sfig:a}
+\backslash
+includegraphics[scale=.52]{../input/precinct_week_2.pdf}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{3mm}
+\backslash
+subfloat[(C) Adds Health + Econ + Weather Controls]{
+\backslash
+label{sfig:b}
+\backslash
+includegraphics[scale=.52]{../input/precinct_week_3.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[(D) Adds County-Time FE]{
+\backslash
+label{sfig:c}
+\backslash
+includegraphics[scale=.52]{../input/precinct_week_4.pdf}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows the estimated coefficients for precinct partisanship
+ 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ on the log number of POI visits in the precinct using the specification
+ outlined in the main text.
+ For Panel A, only precinct and time fixed effects are included as controls.
+ Panel B is the same as Panel A except state-time fixed effects replace
+ the time fixed effects.
+ Panel C is the same as Panel B except that health, economic, and weather
+ covariates are included (flexibly), as described in the main text.
+ Panel D is the same as Panel C except that county-time fixed effects replace
+ the state-time fixed effects.
+ The county-level COVID-19 controls are also subsumed in this specification.
+ The grey error bars indicate 95 percent confidence intervals constructed
+ using standard errors clustered at the state-level.
+ See footnote 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:precinct_caveats"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for limitations regarding this precinct-level analysis.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Social Distancing, Precinct 2019
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:precinct_plac"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[(A) Precinct + Time FE]{
+\backslash
+label{sfig:a}
+\backslash
+includegraphics[scale=.52]{../input/precinct_week_plac_1.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[(B) Adds State-Time FE]{
+\backslash
+label{sfig:a}
+\backslash
+includegraphics[scale=.52]{../input/precinct_week_plac_2.pdf}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{3mm}
+\backslash
+subfloat[(C) Adds Health + Econ + Weather Controls]{
+\backslash
+label{sfig:b}
+\backslash
+includegraphics[scale=.52]{../input/precinct_week_plac_3.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[(D) Adds County-Time FE]{
+\backslash
+label{sfig:c}
+\backslash
+includegraphics[scale=.52]{../input/precinct_week_plac_4.pdf}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows the estimated coefficients for precinct partisanship
+ 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ on the log number of POI visits in the precinct.
+ The figure mirrors Appendix Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:precinct"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, except that 24 weeks of data from January 28, 2019 are used instead of
+ January 27, 2020.
+ For Panel A, only precinct and time fixed effects are included as controls.
+ Panel B is the same as Panel A except state-time fixed effects replace
+ the time fixed effects.
+ Panel C is the same as Panel B except that health, economic, and weather
+ covariates are included (flexibly), as described in the main text.
+ Panel D is the same as Panel C except that county-time fixed effects replace
+ the state-time fixed effects, the county-level COVID-19 controls are also
+ dropped in this specification.
+ The grey error bars indicate 95 percent confidence intervals constructed
+ using standard errors clustered at the state-level.
+ See footnote 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:precinct_caveats"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for limitations regarding this precinct-level analysis.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Social Distancing by 2-Digit NAICS Code Industry
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:naics"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Accommodation and Food]{
+\backslash
+label{sfig:a}
+\backslash
+includegraphics[scale=.5]{../input/countyindustry_week_accomod_and_food.pdf}}
+ 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Entertainment]{
+\backslash
+label{sfig:b}
+\backslash
+includegraphics[scale=.5]{../input/countyindustry_week_entertainment.pdf}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Retail]{
+\backslash
+label{sfig:c}
+\backslash
+includegraphics[scale=.5]{../input/countyindustry_week_retail_trade.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Health Care]{
+\backslash
+label{sfig:d}
+\backslash
+includegraphics[scale=.5]{../input/countyindustry_week_health_care.pdf}} 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Other]{
+\backslash
+label{sfig:e}
+\backslash
+includegraphics[scale=.5]{../input/countyindustry_week_other_industries.pdf}}
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows the estimated coefficients for county Republican vote
+ share 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ on the log number of POI visits in the county after restricting POI visits
+ to various 2-digit NAICS codes.
+ The NAICS code groups are: Accommodation and Food (NAICS 72), Entertainment
+ (NAICS 71), Retail Trade (NAICS 44 and 45), Health Care (NAICS 62), and
+ Other Industries (All NAICS codes not previously used).
+ The same controls are used as in Panel C of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:main"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The grey error bars indicate 95 percent confidence intervals constructed
+ using standard errors clustered at the state-level.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Social Distancing, Daily
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:daily"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../input/county_day.pdf
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows the estimated coefficients for county Republican vote
+ share 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ on the log number of POI visits in the county.
+ The same controls as in Panel C of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:main"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ are used except that state-time fixed effects occur at the day level, and
+ we add separate county fixed effects for weekdays vs.
+ weekends so that weekday and weekend series are normalized separately.
+ The grey error bars indicate 95 percent confidence intervals constructed
+ using standard errors clustered at the state-level.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Social Distancing, Alternative Measures by Home
+ Geography
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:alt_measures"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel A: Alternative Measures by County
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Log Devices Leaving Home]{
+\backslash
+label{sfig:a}
+\backslash
+includegraphics[width=0.32 
+\backslash
+linewidth]{../input/county_week_alt_log_devices_outside_home_3.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Log Stops in Non-Home CBGs]{
+\backslash
+label{sfig:b}
+\backslash
+includegraphics[width=0.32 
+\backslash
+linewidth]{../input/county_week_alt_log_destination_cbgs_not_self_3.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Log Median Time Away from Home]{
+\backslash
+label{sfig:c}
+\backslash
+includegraphics[width=0.32 
+\backslash
+linewidth]{../input/county_week_alt_log_median_away_sg_3.pdf}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel B: Share of Devices Leaving Home by County
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Share of Devices]{
+\backslash
+label{sfig:d}
+\backslash
+includegraphics[width=0.32 
+\backslash
+linewidth]{../input/county_week_alt_share_leave_home_3.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Share of Candidate Devices]{
+\backslash
+label{sfig:e}
+\backslash
+includegraphics[width=0.32 
+\backslash
+linewidth]{../input/county_week_alt_share_leave_home_candidate_3.pdf}} 
+\backslash
+hspace{1mm} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Share Adjusted for Attrition]{
+\backslash
+label{sfig:f}
+\backslash
+includegraphics[width=0.32 
+\backslash
+linewidth]{../input/county_week_alt_share_leave_home_alt_3.pdf}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel C: Alternative Measures by Precinct
+\emph default
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Log Devices Leaving Home]{
+\backslash
+label{sfig:g}
+\backslash
+includegraphics[width=0.32 
+\backslash
+linewidth]{../input/precinct_week_alt_log_devices_outside_home_4.pdf}} 
+\backslash
+hspace{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Log Stops in Non-Home CBGs]{
+\backslash
+label{sfig:h}
+\backslash
+includegraphics[width=0.32 
+\backslash
+linewidth]{../input/precinct_week_alt_log_destination_cbgs_not_self_4.pdf}}
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows the estimated coefficients for Republican vote share
+ 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ on alternative social distancing measures.
+ The specifications are analogous to our baseline in Panel C of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:main"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ or Panel D of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:precinct"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for county- and precinct-level regressions respectively, except that we
+ replace log visits with the following alternative outcomes:
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Panel A: `Log Devices Leaving Home' is the log of one plus the number of
+ active devices in the panel minus the active devices never observed leaving
+ their geohash-7 home.
+ `Log Stops in Non-Home CBGs' counts, by home county, the number of devices
+ which stop in a given non-home census block group.
+ We then sum across non-home census block groups and days to form our county-wee
+k outcome.
+ `Log Median Time Away from Home' calculates the median time a device is
+ observed outside its geohash-7 home, by home census block group.
+ We then take a device-weighted average across census block groups and days
+ to form our county-week measure, and then take the log of this value.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\size scriptsize
+Panel B: This panel shows the share of devices which are observed outside
+ their geohash-7 home, making different assumptions about attrition observed
+ in the data.
+ `Share of Devices' is defined to be 
+\begin_inset Formula $1-\frac{\text{home devices}}{\text{current device count}}$
+\end_inset
+
+, where `home devices' are active devices never observed leaving their geohash-7
+ home and `current device count' is the number of active devices for the
+ current week.
+ `Share of Candidate Devices' is similarly defined as 
+\begin_inset Formula $1-\frac{\text{home devices}}{\text{candidate device count}}$
+\end_inset
+
+, where `candidate device count' is the number of devices regardless of
+ activity.
+ `Share Adjusted for Attrition' is defined to be 
+\begin_inset Formula $1-\frac{\max\{0,\text{home devices}+(\text{initital device count}-\text{current device count})\}}{\text{initial device count}}$
+\end_inset
+
+, where `initial device count' is the number of active devices for the week
+ of February 1.
+\end_layout
+
+\begin_layout Itemize
+
+\size scriptsize
+Panel C: This panel produces precinct-level analogues of the first two plots
+ in Panel A.
+ Our specification matches Panel D of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:precinct"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ (including county-time fixed effects), and we map our original census block
+ group-level social distancing measures to precincts using the method described
+ in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:poi_build_precinct"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ See footnote 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fn:precinct_caveats"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for limitations regarding this precinct-level analysis.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Beliefs and Actions: Unweighted
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:partisan-unweighted"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../input/partisanship_coefplot_unweighted.pdf
+	lyxscale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows coefficient plots of regressing normalized measures of
+ beliefs and actions on Republican party lean, without weighting observations.
+ Negative values indicate less concern about COVID-19 or social distancing.
+ Demographic controls are age, race, income, education, number of children,
+ ZIP code logged population density, county-level deaths and cases, and
+ state fixed effects.
+ 2 percent of observations are set to the mean due to an invalid ZIP code.
+ Self-reported social distancing is the percent reduction in contact with
+ others over one month; effectiveness of distancing is the estimated likelihood
+ of catching COVID-19 in one month without social distancing; importance
+ of distancing vs.
+ economy is subjects' perception of whether it is more important to go out
+ and stimulate the economy versus staying in and preventing the spread of
+ COVID-19; predicted cases are predictions about the number of new COVID-19
+ cases in the U.S.
+ in April; incentivized subjects restrict to the subsample whose answers
+ are incentivized.
+ Error bars represent 95 percent confidence intervals.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Effect of Incentives on Beliefs
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:incentives-beliefs"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../input/partisanship_incentives.pdf
+	lyxscale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows coefficient plots of regressing beliefs on Republican
+ party lean, with and without incentives for getting close to the correct
+ answer.
+ Trump disapproval is a low-stakes question that is susceptible to partisan
+ cheerleading (Bullock et al.
+ 2015; Prior et al.
+ 2015).
+ These results show that predicting COVID-19 cases does not appear susceptible
+ to the same behavior.
+ Observations are weighted to mimic a representative sample as described
+ in the text.
+ Error bars represent 95 percent confidence intervals.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Beliefs and Actions: County Fixed Effects
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:partisan-county-fe"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../input/partisanship_coefplot_countyfe.pdf
+	lyxscale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows coefficient plots of regressing normalized measures of
+ beliefs and actions on our seven-point measure of partisan affiliation
+ which ranges between 0 (Strongly Democratic) and 1 (Strongly Republican).
+ Negative estimates indicate less concern about COVID-19 or social distancing.
+ Demographic controls are age, race, income, education, number of children,
+ log population at the ZIP code level, and county fixed effects.
+ 21.5 percent of observations are dropped due to an invalid ZIP code or unique
+ county.
+ The remaining observations are weighted to mimic a representative sample
+ as described in the text.
+ Self-reported social distancing is the percent reduction in contact with
+ others over one month; effectiveness of distancing is the estimated likelihood
+ of catching COVID-19 in one month without social distancing; importance
+ of distancing vs.
+ economy is subjects' perception of whether it is more important to go out
+ and stimulate the economy versus staying in and preventing the spread of
+ COVID-19; predicted cases are predictions about the number of new COVID-19
+ cases in the US in April; incentivized subjects restrict to the subsample
+ whose answers are incentivized.
+ Error bars represent 95 percent confidence intervals.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Differences in Beliefs and Actions by Party and News Consumption
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:partisan-news-control"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../input/partisanship_coefplot_news.pdf
+	lyxscale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Note: Figure shows coefficient plots of regressing normalized measures of
+ beliefs and actions on coronavirus news consumption and our our seven-point
+ measure of partisan affiliation which ranges between 0 (Strongly Democratic)
+ and 1 (Strongly Republican).
+ Negative estimates indicate less concern about COVID-19 or social distancing.
+ News consumption weights respondents' ratings to 
+\begin_inset Quotes eld
+\end_inset
+
+How frequently are you getting news and information from each of the following
+ sources about the coronavirus?
+\begin_inset Quotes erd
+\end_inset
+
+ as specified in the Survey Details of the Appendix.
+ All coefficients include demographic controls of age, race, income, education,
+ number of children, log population density at the ZIP code level, and state
+ fixed effects.
+ 2 percent of observations are set to the mean due to an invalid ZIP code.
+ For each outcome, the top plot does not control for news, the middle plot
+ linearly controls for news, and the bottom plot shows the coefficient on
+ news in the middle specification.
+ Self-reported social distancing is the percent reduction in contact with
+ others over one month; effectiveness of distancing is the estimated likelihood
+ of catching COVID-19 in one month without social distancing; importance
+ of distancing vs.
+ economy is subjects' perception of whether it is more important to go out
+ and stimulate the economy versus staying in and preventing the spread of
+ COVID-19; predicted cases are predictions about the number of new COVID-19
+ cases in the U.S.
+ in April; incentivized subjects restrict to the subsample whose answers
+ are incentivized.
+ Observations are weighted to mimic a representative sample as described
+ in the text.
+ Error bars represent 95 percent confidence intervals.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

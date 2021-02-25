@@ -1,0 +1,17 @@
+Externals:
+
+Daily GridMET weather data by county and census block group was downloaded from [https://drive.google.com/drive/folders/1wZXBrqw9uE2JorzQThKpktO_l1XGlzLT](https://drive.google.com/drive/folders/1wZXBrqw9uE2JorzQThKpktO_l1XGlzLT) on July 15, 2020.
+
+Census Block Group shapefiles were downloaded from [ftp://ftp2.census.gov/geo/tiger/TIGER2019/BG/](ftp://ftp2.census.gov/geo/tiger/TIGER2019/BG/) on April 10, 2020.
+
+Precinct shapefiles and 2016 presidential election vote counts were downloaded from [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NH5S2I](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NH5S2I) on July 11, 2020. (V42).
+
+SafeGraph's Open Census Data was downloaded from [https://www.safegraph.com/open-census-data](https://www.safegraph.com/open-census-data) on March 26, 2020.
+
+Other SafeGraph Data was downloaded on July 15, 2020. [https://www.safegraph.com/covid-19-data-consortium](https://www.safegraph.com/covid-19-data-consortium) contains instructions on how to sign up for SafeGraph data access. After completing this process and setting up AWS credentials, these files were downloaded using the following command lines:
+```
+aws s3 sync s3://sg-c19-response/weekly-patterns/v2/ "./Weekly Patterns/v2/" --profile safegraphws --endpoint https://s3.wasabisys.com
+aws s3 sync s3://sg-c19-response/weekly-patterns-delivery/weekly/ "./Weekly Patterns Continued/" --profile safegraphws --endpoint https://s3.wasabisys.com
+aws s3 sync s3://sg-c19-response/core/ "./Core POI" --profile safegraphws --endpoint https://s3.wasabisys.com
+aws s3 sync s3://sg-c19-response/social-distancing/v2/2020/ "./Daily Social Distancing/v2/2020/" --profile safegraphws --endpoint https://s3.wasabisys.com
+```

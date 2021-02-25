@@ -1,0 +1,25 @@
+# Each line of instruction in this `inputs.txt` file should contain a destination and source delimited by a `|`.
+# Lines beginning with # are ignored.
+# 
+# For example, suppose your `inputs.txt` file contains the following lines of text:
+# > destination | source
+#
+# Now suppose you run the following line of code:
+# > link_inputs(paths, ['inputs.txt'])
+# 
+# This will create a link in `paths['input_dir']` named `destination` that links to `source`.
+# 
+# Alternative, suppose you run the following line of code:
+# > copy_inputs(paths, ['inputs.txt'])
+# 
+# This will create a file in `paths['input_dir']` named `destination` that is a copy of `source`.
+
+# Destination | Source
+countypres_2000-2016.csv 		| "{root}/raw/county_election/countypres_2000-2016.csv" 
+county_shapefiles	 			| "{root}/raw/gz_2010_us_050_00_20m"
+nyt_covid_us_counties.csv		| "{root}/raw/nyt_covid/nyt_covid_us_counties.csv"
+state_shapefiles				| "{root}/raw/cb_2018_us_state_500k"
+full_policy_data.csv			| "{root}/raw/policy/full_policy_data.csv"
+cloudresearch_4-7-20_raw.csv 	| "{root}/raw/survey/cloudresearch_4-7-20_raw.csv"
+zip_code_info.csv				| "{root}/raw/zip_code_info/zip_code_info.csv"
+cloudresearch_participants.csv	| "{root}/raw/survey/cloudresearch_participants.csv"

@@ -1,0 +1,813 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{setspace}
+\usepackage[labelfont=bf]{caption}
+\PassOptionsToPackage{position=top}{subfig}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 11
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 0
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side left
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Perceived Risk and Social Distancing
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:polls"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Panel A: Concern over Spread of Coronavirus
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../input/concern over spread of coronavirus.pdf
+	lyxscale 60
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Panel B: Behavior Change from Coronavirus
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../input/marist march behavior change polls.pdf
+	lyxscale 60
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Panel C: Share Avoiding Public Places
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../input/gallup avoiding public places.pdf
+	lyxscale 60
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Panel D: Share Avoiding Small Gatherings
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../input/gallup avoiding small gatherings.pdf
+	lyxscale 60
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Note: Figure shows responses to nationally representative polls by political
+ affiliation.
+ Panel A shows the share of people concerned about coronavirus spreading
+ to the United States (Piacenza 2020).
+ Panel B shows self-reported behavior change as of March 13-14 (Marist 2020).
+ Panel C shows the share of people avoiding public places, such as stores
+ and restaurants (Saad 2020).
+ Panel D shows that share of people avoiding small gatherings, such as with
+ friends and family (Saad 2020).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways true
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Geographic Variation in Social Distancing, Partisanship, COVID-19, and Public
+ Policy 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:maps"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Panel A: % Change in SafeGraph Visits 1/27/20-4/6/20
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../input/map_county_continental_visits_pct_ch.pdf
+	lyxscale 60
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Panel B: 2016 Republican Vote Share
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../input/map_county_continental_rep_pct.pdf
+	lyxscale 60
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Panel C: COVID Cases Confirmed by 7/12/2020
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../input/map_county_continental_cases.pdf
+	lyxscale 60
+	width 49page%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Panel D: ``Stay at Home'' Order Start Date
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../input/map_county_continental_sip_effective_date.pdf
+	lyxscale 60
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Note: Figure shows the U.S.
+ geographic distribution of social distancing, political affiliation, COVID-19,
+ and public policy responses.
+ Panel A shows, for each county, the percent change in aggregate visits
+ between the week beginning January 27, 2020 and the week beginning April
+ 6, 2020.
+ Blue shading denotes a more negative percent change in visits during the
+ latter week relative to the former.
+ Red shading indicates an increase or a smaller decrease in visits.
+ These visits are sourced from SafeGraph's mobile device location data.
+ Panel B maps counties by the Republican presidential vote shares in the
+ 2016 election.
+ Red shading in this panel indicates more Republican counties, and blue
+ shading indicates more Democratic counties.
+ Panel C shows for each county the number of COVID-19 cases confirmed by
+ July 12, 2020 (sourced from The New York Times).
+ Panel D shades US counties by the effective start date for the earliest
+ ``stay-at-home'' order issued (see Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Data"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for sources).
+ Blue shading indicates an earlier order, while red shading indicates that
+ an order was issued later or was never issued.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Social Distancing and COVID-19 Incidence
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:trends"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel A: POI Visits
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../input/trends_overtime_poi.pdf
+	scale 70
+
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Panel B: Cumulative, Confirmed COVID-19 Cases and Deaths
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../input/trends_overtime_covid.pdf
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Note: Panel A shows the number of visits (normalized to one) to SafeGraph
+ POIs for each week since January 27, 2020 for Republican counties and Democrati
+c counties separately.
+ Panel B is analogous but plots cumulative, end-of-week values for confirmed
+ COVID-19 cases (per 100,000 people) and confirmed COVID-19 deaths (per
+ 1,000,000 people).
+ Republican counties are defined to be those whose 2016 Republican vote
+ share is greater than the median vote share (66.4 percent) across the counties
+ in our sample.
+ Counties covering New York City, Kansas City, and Alaska are excluded from
+ these counts, as noted in Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:poi_build"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Social Distancing
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:main"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Panel A: Only County 
+\backslash
+& Time FE]{
+\backslash
+label{sfig:a}
+\backslash
+includegraphics[scale=.55]{../input/county_week_1.pdf}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Panel B: Adds State-Time FE]{
+\backslash
+label{sfig:b}
+\backslash
+includegraphics[scale=.55]{../input/county_week_2.pdf}} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfloat[Panel C: Adds Health + Econ + Weather Controls]{
+\backslash
+label{sfig:c}
+\backslash
+includegraphics[scale=.55]{../input/county_week_3.pdf}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Note: Figure shows the estimated coefficients for county Republican vote
+ share 
+\begin_inset Formula $\rho_{i}$
+\end_inset
+
+ on the log number of POI visits in the county.
+ For Panel A, only county and time fixed effects are included as controls.
+ Panel B is the same as Panel A except state-time fixed effects replace
+ the time fixed effects.
+ Panel C is the same as Panel B except that health, economic, and weather
+ covariates are included (flexibly), as described in the main text.
+ The grey error bars indicate 95 percent confidence intervals constructed
+ using standard errors clustered at the state-level.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Partisan Differences in Beliefs and Actions
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:partisan-differences"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../input/partisanship_coefplot_horizontal.pdf
+	lyxscale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Note: Figure shows coefficient plots from regressing normalized measures
+ of beliefs and actions on our seven-point measure of partisan affiliation
+ which ranges between 0 (Strongly Democratic) and 1 (Strongly Republican).
+ Negative estimates indicate less concern about COVID-19 or social distancing.
+ Demographic controls are age, race, income, education, number of children,
+ log population at the ZIP code level, county-level deaths and cases, and
+ state fixed effects.
+ 2 percent of observations are set to the mean due to an invalid ZIP code.
+ Self-reported social distancing is the percent reduction in contact with
+ others over one month; effectiveness of distancing is the estimated likelihood
+ of catching COVID-19 in one month without social distancing; importance
+ of distancing vs.
+ economy is subjects' perception of whether it is more important to go out
+ and stimulate the economy versus staying in and preventing the spread of
+ COVID-19; predicted cases are predictions about the number of new COVID-19
+ cases in the US in April; incentivized subjects restrict to the subsample
+ whose answers are incentivized.
+ Observations are weighted to mimic a representative sample as described
+ in the text.
+ Error bars represent 95 percent confidence intervals.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
